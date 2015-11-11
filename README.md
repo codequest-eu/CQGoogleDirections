@@ -22,7 +22,7 @@ pod "CQGoogleDirections"
 
 ## Author
 
-Lukasz Solniczek, l.solniczek@gmail.com
+Lukasz Solniczek, l(dot)solniczek(at)gmail(dot)com
 
 ## License
 
