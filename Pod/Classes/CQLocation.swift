@@ -10,8 +10,8 @@ import MapKit
 
 public struct CQLocation {
     
-    var adress: String
-    var location: CLLocationCoordinate2D
+    public var adress: String
+    public var location: CLLocationCoordinate2D
     
     public init(adress: String, location: [String: AnyObject]) {
         self.adress = adress

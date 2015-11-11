@@ -10,8 +10,8 @@ import MapKit
 
 public struct CQBounds {
     
-    var northeast: CLLocationCoordinate2D
-    var southwest: CLLocationCoordinate2D
+    public var northeast: CLLocationCoordinate2D
+    public var southwest: CLLocationCoordinate2D
     
     public init(northeastDic: [String: AnyObject], southwestDic: [String: AnyObject]) {
         self.northeast = CLLocationCoordinate2D(latitude: northeastDic["lat"] as! Double, longitude: northeastDic["lng"] as! Double)

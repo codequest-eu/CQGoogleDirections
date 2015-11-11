@@ -8,7 +8,7 @@
 
 public struct CQOverviewPolylines {
     
-    var points: String
+    public var points: String
     
     public init(value: [String: AnyObject]) {
         self.points = value["points"] as! String

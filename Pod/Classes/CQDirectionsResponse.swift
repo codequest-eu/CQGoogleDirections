@@ -9,7 +9,7 @@ import MapKit
 
 public struct CQDirectionsResponse {
     
-    var routes: CQRoutes
+    public var routes: CQRoutes
     
     public init(value: NSDictionary) {
         let routes = value["routes"] as! NSArray

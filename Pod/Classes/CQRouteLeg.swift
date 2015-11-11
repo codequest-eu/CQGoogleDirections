@@ -8,10 +8,10 @@
 
 public struct CQRouteLeg {
     
-    var distance: String
-    var duration: String
-    var startLocation: CQLocation
-    var endLocation: CQLocation
+    public var distance: String
+    public var duration: String
+    public var startLocation: CQLocation
+    public var endLocation: CQLocation
     
     public init(value: [String: AnyObject]) {
         let distance = value["distance"] as! [String: AnyObject]

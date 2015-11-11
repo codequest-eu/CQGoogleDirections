@@ -8,9 +8,9 @@
 
 public struct CQRoutes {
     
-    var overviewPolylines: CQOverviewPolylines
-    var bounds: CQBounds
-    var legs: [CQRouteLeg]
+    public var overviewPolylines: CQOverviewPolylines
+    public var bounds: CQBounds
+    public var legs: [CQRouteLeg]
     
     public init(value: [String: AnyObject]) {
         var legsArr = [CQRouteLeg]()
