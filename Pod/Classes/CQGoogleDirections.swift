@@ -8,7 +8,7 @@
 
 import MapKit
 
-typealias DirectionResponseHandler = (response: CQDirectionsResponse) -> ()
+public typealias DirectionResponseHandler = (response: CQDirectionsResponse) -> ()
 
 public class CQGoogleDirections {
     
