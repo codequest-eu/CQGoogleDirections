@@ -11,20 +11,12 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "Google Directions API helper for iOS."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "CQGoogleDirections helps developers deal with Google Directions API by turning JSON Response into convenient objects."
 
   s.homepage         = "https://github.com/codequest-eu/CQGoogleDirections"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Lukasz Solniczek" => "l.solniczek@gmail.com" }
   s.source           = { :git => "https://github.com/codequest-eu/CQGoogleDirections.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -34,6 +26,5 @@ Pod::Spec.new do |s|
     'CQGoogleDirections' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit'
 end
