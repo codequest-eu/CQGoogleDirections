@@ -24,7 +24,7 @@ public class CQGoogleDirections {
         self.wayPoints = wayPoints
     }
     
-    func calculateDirections(responseHandler: DirectionResponseHandler) {
+    public func calculateDirections(responseHandler: DirectionResponseHandler) {
         let url = constructGoogleDirectionsURL()
         let urlSession = NSURLSession.sharedSession()
         let task = urlSession.dataTaskWithURL(url) { data, response, error in
