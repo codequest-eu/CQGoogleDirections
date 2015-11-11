@@ -7,17 +7,13 @@
 //
 
 import UIKit
+import CQGoogleDirections
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+//        let directionAPI = CQGoogleDirections(from: splitedCoords.0, to: splitedCoords.1, wayPoints: splitedCoords.2)
     }
 
 }
