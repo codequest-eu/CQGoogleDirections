@@ -6,13 +6,11 @@
 //  Copyright © 2015 Lukasz Solniczek. All rights reserved.
 //
 
-import Foundation
-
-struct CQOverviewPolylines {
+public struct CQOverviewPolylines {
     
     var points: String
     
-    init(value: [String: AnyObject]) {
+    public init(value: [String: AnyObject]) {
         self.points = value["points"] as! String
     }
     

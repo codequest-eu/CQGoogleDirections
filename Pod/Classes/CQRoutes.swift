@@ -6,15 +6,13 @@
 //  Copyright © 2015 Lukasz Solniczek. All rights reserved.
 //
 
-import Foundation
-
-struct CQRoutes {
+public struct CQRoutes {
     
     var overviewPolylines: CQOverviewPolylines
     var bounds: CQBounds
     var legs: [CQRouteLeg]
     
-    init(value: [String: AnyObject]) {
+    public init(value: [String: AnyObject]) {
         var legsArr = [CQRouteLeg]()
         for leg in value["legs"] as! NSArray {
             legsArr.append(CQRouteLeg(value: leg as! [String: AnyObject]))

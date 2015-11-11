@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CQGoogleDirections"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Google Directions API helper for iOS."
 
   s.description      = "CQGoogleDirections helps developers deal with Google Directions API by turning JSON Response into convenient objects."

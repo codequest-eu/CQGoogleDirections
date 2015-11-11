@@ -6,16 +6,14 @@
 //  Copyright © 2015 Lukasz Solniczek. All rights reserved.
 //
 
-import Foundation
-
-struct CQRouteLeg {
+public struct CQRouteLeg {
     
     var distance: String
     var duration: String
     var startLocation: CQLocation
     var endLocation: CQLocation
     
-    init(value: [String: AnyObject]) {
+    public init(value: [String: AnyObject]) {
         let distance = value["distance"] as! [String: AnyObject]
         self.distance = distance["text"] as! String
         let duration = value["duration"] as! [String: AnyObject]

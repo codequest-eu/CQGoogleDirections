@@ -18,7 +18,7 @@ public class CQGoogleDirections {
     var to: CLLocationCoordinate2D
     var wayPoints: [CLLocationCoordinate2D]?
     
-    init(from: CLLocationCoordinate2D, to: CLLocationCoordinate2D, wayPoints: [CLLocationCoordinate2D]?) {
+    public init(from: CLLocationCoordinate2D, to: CLLocationCoordinate2D, wayPoints: [CLLocationCoordinate2D]?) {
         self.from = from
         self.to = to
         self.wayPoints = wayPoints

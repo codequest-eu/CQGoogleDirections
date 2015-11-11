@@ -8,12 +8,12 @@
 
 import MapKit
 
-struct CQBounds {
+public struct CQBounds {
     
     var northeast: CLLocationCoordinate2D
     var southwest: CLLocationCoordinate2D
     
-    init(northeastDic: [String: AnyObject], southwestDic: [String: AnyObject]) {
+    public init(northeastDic: [String: AnyObject], southwestDic: [String: AnyObject]) {
         self.northeast = CLLocationCoordinate2D(latitude: northeastDic["lat"] as! Double, longitude: northeastDic["lng"] as! Double)
         self.southwest = CLLocationCoordinate2D(latitude: southwestDic["lat"] as! Double, longitude: southwestDic["lng"] as! Double)
     }
