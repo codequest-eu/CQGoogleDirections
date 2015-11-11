@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B51CA467C6F038356D780A82057B89 /* CQGoogleDirections.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CED01B406F698C52CEF0FFCDE3AD5 /* CQGoogleDirections.bundle */; };
+		1FB7DA11E4BB3284F164617D0D997B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2206A0719D9EEC3D9E4FA5965767B7B3 /* CQGoogleDirections-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 393002A2318DD6A164AC1E2645D0F57B /* CQGoogleDirections-dummy.m */; };
+		4C66D1BD08805EA0FDA211D42441355B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		66772E3EA7146FB8CE90752209366631 /* Pods-CQGoogleDirections_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DB0254A8A24225C85C00CD9BBCD5CA /* Pods-CQGoogleDirections_Example-dummy.m */; };
+		83915C111276368B879FA179DD876F4F /* CQGoogleDirections-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E9EB02C03F6B91304DB5E173FC3046 /* CQGoogleDirections-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE2E85A4A3BE953C334AEEFDA556414C /* Pods-CQGoogleDirections_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3483302663EE201AC0B1BE561583B /* Pods-CQGoogleDirections_Tests-dummy.m */; };
+		B2FDBD571BF3950500C1E84F /* CQBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD501BF3950500C1E84F /* CQBounds.swift */; };
+		B2FDBD581BF3950500C1E84F /* CQDirectionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD511BF3950500C1E84F /* CQDirectionsResponse.swift */; };
+		B2FDBD591BF3950500C1E84F /* CQGoogleDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD521BF3950500C1E84F /* CQGoogleDirections.swift */; };
+		B2FDBD5A1BF3950500C1E84F /* CQLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD531BF3950500C1E84F /* CQLocation.swift */; };
+		B2FDBD5B1BF3950500C1E84F /* CQOverviewPolylines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD541BF3950500C1E84F /* CQOverviewPolylines.swift */; };
+		B2FDBD5C1BF3950500C1E84F /* CQRouteLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD551BF3950500C1E84F /* CQRouteLeg.swift */; };
+		B2FDBD5D1BF3950500C1E84F /* CQRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD561BF3950500C1E84F /* CQRoutes.swift */; };
+		C4E8783137DCCB5715E48AF8E61DCF4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CB8FBF2DD308937051104265E869E1DA /* Pods-CQGoogleDirections_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 998EA2C937E9D28E2B54662BF1312FD1 /* Pods-CQGoogleDirections_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E30AD304CC9AA20169C4A4102AA636F5 /* Pods-CQGoogleDirections_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB603D155905F6424BAD2C33407818B /* Pods-CQGoogleDirections_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		444522CBB831BF79DE07F916A6D8F516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5391FCA8B24B38B9FEFD276E05E901A;
+			remoteInfo = CQGoogleDirections;
+		};
+		5A5E25E42C699804EA9B6D6D559178D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5391FCA8B24B38B9FEFD276E05E901A;
+			remoteInfo = CQGoogleDirections;
+		};
+		9DF7173E959AD15E4BFA06634C470643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA53AEDD21EF4F84CB758F7BA091A9CB;
+			remoteInfo = "CQGoogleDirections-CQGoogleDirections";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C7FB069CA9A3BEB09D9810CBC2C208 /* Pods-CQGoogleDirections_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CQGoogleDirections_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F6CED01B406F698C52CEF0FFCDE3AD5 /* CQGoogleDirections.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQGoogleDirections.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB3483302663EE201AC0B1BE561583B /* Pods-CQGoogleDirections_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CQGoogleDirections_Tests-dummy.m"; sourceTree = "<group>"; };
+		211AF6590605311E650A468B9B4C50BA /* Pods_CQGoogleDirections_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQGoogleDirections_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DB0254A8A24225C85C00CD9BBCD5CA /* Pods-CQGoogleDirections_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CQGoogleDirections_Example-dummy.m"; sourceTree = "<group>"; };
+		393002A2318DD6A164AC1E2645D0F57B /* CQGoogleDirections-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CQGoogleDirections-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C555F245EF0C79710994AD7A466C3A4 /* Pods-CQGoogleDirections_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CQGoogleDirections_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FA1C3F4E8A91A34A03D49323F62AD59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F72554B68E4402C27D75D02AB3D94F /* Pods-CQGoogleDirections_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQGoogleDirections_Example.release.xcconfig"; sourceTree = "<group>"; };
+		600495747BE03F6401A44C5A91F1FD1D /* CQGoogleDirections.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CQGoogleDirections.xcconfig; sourceTree = "<group>"; };
+		6B38BE749E778EEF71CB646AF9F93538 /* CQGoogleDirections-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CQGoogleDirections-prefix.pch"; sourceTree = "<group>"; };
+		7296C9B39D326F0CDA8F065ED9C90487 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D49EC5E3D6A578A5D93EB736529823 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DCF6C177D4D7573892F88FA2359370 /* Pods-CQGoogleDirections_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQGoogleDirections_Example-resources.sh"; sourceTree = "<group>"; };
+		998EA2C937E9D28E2B54662BF1312FD1 /* Pods-CQGoogleDirections_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CQGoogleDirections_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B1624B49C617DC2210EF04F5D430B2E6 /* Pods-CQGoogleDirections_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQGoogleDirections_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B1CA24C16807CA30A769945B0F9DCB5A /* Pods-CQGoogleDirections_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQGoogleDirections_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B2FDBD501BF3950500C1E84F /* CQBounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQBounds.swift; sourceTree = "<group>"; };
+		B2FDBD511BF3950500C1E84F /* CQDirectionsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQDirectionsResponse.swift; sourceTree = "<group>"; };
+		B2FDBD521BF3950500C1E84F /* CQGoogleDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQGoogleDirections.swift; sourceTree = "<group>"; };
+		B2FDBD531BF3950500C1E84F /* CQLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQLocation.swift; sourceTree = "<group>"; };
+		B2FDBD541BF3950500C1E84F /* CQOverviewPolylines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQOverviewPolylines.swift; sourceTree = "<group>"; };
+		B2FDBD551BF3950500C1E84F /* CQRouteLeg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQRouteLeg.swift; sourceTree = "<group>"; };
+		B2FDBD561BF3950500C1E84F /* CQRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQRoutes.swift; sourceTree = "<group>"; };
+		B93DDBEABA9BA66E93A474B0AB97C4DE /* Pods-CQGoogleDirections_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CQGoogleDirections_Example.modulemap"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCB603D155905F6424BAD2C33407818B /* Pods-CQGoogleDirections_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CQGoogleDirections_Example-umbrella.h"; sourceTree = "<group>"; };
+		C1167CAF2BA54CF38D027D3F479FB715 /* Pods-CQGoogleDirections_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQGoogleDirections_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C129DCF906199A0787869CD4F6486B05 /* Pods-CQGoogleDirections_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CQGoogleDirections_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5E9EB02C03F6B91304DB5E173FC3046 /* CQGoogleDirections-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CQGoogleDirections-umbrella.h"; sourceTree = "<group>"; };
+		D5E53A2313CB4382BDE919F0A87A9DB7 /* Pods-CQGoogleDirections_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQGoogleDirections_Tests-resources.sh"; sourceTree = "<group>"; };
+		E7DE48F12170A2781D59A635CD80EF2F /* Pods-CQGoogleDirections_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CQGoogleDirections_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA0220131AC7F0EBADEE85172C59D227 /* Pods-CQGoogleDirections_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CQGoogleDirections_Tests.modulemap"; sourceTree = "<group>"; };
+		F346400CF93741710257CF476712AC62 /* Pods_CQGoogleDirections_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQGoogleDirections_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BCCD66B603364474EE876D8284B6BB /* Pods-CQGoogleDirections_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQGoogleDirections_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FC3333C54B6E9030B79F48EE771BB977 /* CQGoogleDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CQGoogleDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE92EFE032EE97809CB6AF3BA21F8E15 /* Pods-CQGoogleDirections_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQGoogleDirections_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFCD4FBFB75C6C881AFD4CDD1AA0670F /* CQGoogleDirections.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CQGoogleDirections.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B4B9F2C1A5731F184B6B63998D6C944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB7DA11E4BB3284F164617D0D997B08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7571D7D334382869B88109102CEB46A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E8783137DCCB5715E48AF8E61DCF4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893D61E124B8B0D9DF0E51EDE1882EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9913276FA8482C484A46C760583E5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C66D1BD08805EA0FDA211D42441355B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063BE231B7E530C37BBF0AD329E98BF5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD91A34C5E477E866765B21C36651B8D /* CQGoogleDirections */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		302551A4AE8CD9730296CFC82A872264 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B2FDBD501BF3950500C1E84F /* CQBounds.swift */,
+				B2FDBD511BF3950500C1E84F /* CQDirectionsResponse.swift */,
+				B2FDBD521BF3950500C1E84F /* CQGoogleDirections.swift */,
+				B2FDBD531BF3950500C1E84F /* CQLocation.swift */,
+				B2FDBD541BF3950500C1E84F /* CQOverviewPolylines.swift */,
+				B2FDBD551BF3950500C1E84F /* CQRouteLeg.swift */,
+				B2FDBD561BF3950500C1E84F /* CQRoutes.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C3133698FCE48F43750466E88466B40 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				996ECC8C2ED9EBC7D973C00E30C7D120 /* Pods-CQGoogleDirections_Example */,
+				79280F58A712EFA1CF05D7F2D212D213 /* Pods-CQGoogleDirections_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79280F58A712EFA1CF05D7F2D212D213 /* Pods-CQGoogleDirections_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FA1C3F4E8A91A34A03D49323F62AD59 /* Info.plist */,
+				EA0220131AC7F0EBADEE85172C59D227 /* Pods-CQGoogleDirections_Tests.modulemap */,
+				4C555F245EF0C79710994AD7A466C3A4 /* Pods-CQGoogleDirections_Tests-acknowledgements.markdown */,
+				C129DCF906199A0787869CD4F6486B05 /* Pods-CQGoogleDirections_Tests-acknowledgements.plist */,
+				1CB3483302663EE201AC0B1BE561583B /* Pods-CQGoogleDirections_Tests-dummy.m */,
+				B1624B49C617DC2210EF04F5D430B2E6 /* Pods-CQGoogleDirections_Tests-frameworks.sh */,
+				D5E53A2313CB4382BDE919F0A87A9DB7 /* Pods-CQGoogleDirections_Tests-resources.sh */,
+				998EA2C937E9D28E2B54662BF1312FD1 /* Pods-CQGoogleDirections_Tests-umbrella.h */,
+				FE92EFE032EE97809CB6AF3BA21F8E15 /* Pods-CQGoogleDirections_Tests.debug.xcconfig */,
+				B1CA24C16807CA30A769945B0F9DCB5A /* Pods-CQGoogleDirections_Tests.release.xcconfig */,
+			);
+			name = "Pods-CQGoogleDirections_Tests";
+			path = "Target Support Files/Pods-CQGoogleDirections_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				063BE231B7E530C37BBF0AD329E98BF5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9C9468F8AB72E91EC2523E142EC23450 /* Products */,
+				3C3133698FCE48F43750466E88466B40 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		996ECC8C2ED9EBC7D973C00E30C7D120 /* Pods-CQGoogleDirections_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7296C9B39D326F0CDA8F065ED9C90487 /* Info.plist */,
+				B93DDBEABA9BA66E93A474B0AB97C4DE /* Pods-CQGoogleDirections_Example.modulemap */,
+				08C7FB069CA9A3BEB09D9810CBC2C208 /* Pods-CQGoogleDirections_Example-acknowledgements.markdown */,
+				E7DE48F12170A2781D59A635CD80EF2F /* Pods-CQGoogleDirections_Example-acknowledgements.plist */,
+				36DB0254A8A24225C85C00CD9BBCD5CA /* Pods-CQGoogleDirections_Example-dummy.m */,
+				F3BCCD66B603364474EE876D8284B6BB /* Pods-CQGoogleDirections_Example-frameworks.sh */,
+				95DCF6C177D4D7573892F88FA2359370 /* Pods-CQGoogleDirections_Example-resources.sh */,
+				BCB603D155905F6424BAD2C33407818B /* Pods-CQGoogleDirections_Example-umbrella.h */,
+				C1167CAF2BA54CF38D027D3F479FB715 /* Pods-CQGoogleDirections_Example.debug.xcconfig */,
+				50F72554B68E4402C27D75D02AB3D94F /* Pods-CQGoogleDirections_Example.release.xcconfig */,
+			);
+			name = "Pods-CQGoogleDirections_Example";
+			path = "Target Support Files/Pods-CQGoogleDirections_Example";
+			sourceTree = "<group>";
+		};
+		9C9468F8AB72E91EC2523E142EC23450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F6CED01B406F698C52CEF0FFCDE3AD5 /* CQGoogleDirections.bundle */,
+				FC3333C54B6E9030B79F48EE771BB977 /* CQGoogleDirections.framework */,
+				211AF6590605311E650A468B9B4C50BA /* Pods_CQGoogleDirections_Example.framework */,
+				F346400CF93741710257CF476712AC62 /* Pods_CQGoogleDirections_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD91A34C5E477E866765B21C36651B8D /* CQGoogleDirections */ = {
+			isa = PBXGroup;
+			children = (
+				E835B12E6860154727530F5C402CA7CF /* Pod */,
+				FFEB320D10610265FA1A649BE6FB8A8E /* Support Files */,
+			);
+			name = CQGoogleDirections;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E835B12E6860154727530F5C402CA7CF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				302551A4AE8CD9730296CFC82A872264 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FFEB320D10610265FA1A649BE6FB8A8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFCD4FBFB75C6C881AFD4CDD1AA0670F /* CQGoogleDirections.modulemap */,
+				600495747BE03F6401A44C5A91F1FD1D /* CQGoogleDirections.xcconfig */,
+				393002A2318DD6A164AC1E2645D0F57B /* CQGoogleDirections-dummy.m */,
+				6B38BE749E778EEF71CB646AF9F93538 /* CQGoogleDirections-prefix.pch */,
+				C5E9EB02C03F6B91304DB5E173FC3046 /* CQGoogleDirections-umbrella.h */,
+				73D49EC5E3D6A578A5D93EB736529823 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CQGoogleDirections";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05DD32521D1AAFEA2BABFA8DE046337E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30AD304CC9AA20169C4A4102AA636F5 /* Pods-CQGoogleDirections_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C496880A12954D01A425692DBB5BF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8FBF2DD308937051104265E869E1DA /* Pods-CQGoogleDirections_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF6282E2FBDF94166B78F8B4D9A6EF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83915C111276368B879FA179DD876F4F /* CQGoogleDirections-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15F20FB1C503258BC3FE2A59C940497A /* Pods-CQGoogleDirections_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4025B096F43EFB7855EBF9A70A1BDE43 /* Build configuration list for PBXNativeTarget "Pods-CQGoogleDirections_Tests" */;
+			buildPhases = (
+				C6CB956472BCA94FFF0344115747C3E7 /* Sources */,
+				0B4B9F2C1A5731F184B6B63998D6C944 /* Frameworks */,
+				22C496880A12954D01A425692DBB5BF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2225D74CCBA38F357E2DD2A9694DBF12 /* PBXTargetDependency */,
+			);
+			name = "Pods-CQGoogleDirections_Tests";
+			productName = "Pods-CQGoogleDirections_Tests";
+			productReference = F346400CF93741710257CF476712AC62 /* Pods_CQGoogleDirections_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66D7EAD09F3792E7D108240818913CC8 /* Pods-CQGoogleDirections_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB2153DFE32F22B59B782C166AA94DC /* Build configuration list for PBXNativeTarget "Pods-CQGoogleDirections_Example" */;
+			buildPhases = (
+				495CD42EF1314D39691F03782FF743AA /* Sources */,
+				7571D7D334382869B88109102CEB46A5 /* Frameworks */,
+				05DD32521D1AAFEA2BABFA8DE046337E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6164CE62B5114ED7EB5E8964A1E9DE9E /* PBXTargetDependency */,
+			);
+			name = "Pods-CQGoogleDirections_Example";
+			productName = "Pods-CQGoogleDirections_Example";
+			productReference = 211AF6590605311E650A468B9B4C50BA /* Pods_CQGoogleDirections_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA53AEDD21EF4F84CB758F7BA091A9CB /* CQGoogleDirections-CQGoogleDirections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE275034EC05B03CACA53250BB326269 /* Build configuration list for PBXNativeTarget "CQGoogleDirections-CQGoogleDirections" */;
+			buildPhases = (
+				6F83DE255DEB96E421D9890A6B17EDD5 /* Sources */,
+				893D61E124B8B0D9DF0E51EDE1882EE3 /* Frameworks */,
+				11C840E3868DCB539CE37D49B29FA84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CQGoogleDirections-CQGoogleDirections";
+			productName = "CQGoogleDirections-CQGoogleDirections";
+			productReference = 0F6CED01B406F698C52CEF0FFCDE3AD5 /* CQGoogleDirections.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F5391FCA8B24B38B9FEFD276E05E901A /* CQGoogleDirections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B097734670096476BDF219AA6BFD444 /* Build configuration list for PBXNativeTarget "CQGoogleDirections" */;
+			buildPhases = (
+				691D20A2FE80168892E0551459F69DDD /* Sources */,
+				A9913276FA8482C484A46C760583E5C4 /* Frameworks */,
+				F92E1E55F940B7C9BDCE78F9FC19C8A3 /* Resources */,
+				8CF6282E2FBDF94166B78F8B4D9A6EF9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C553C919400EBE68EC8636309BEFD1 /* PBXTargetDependency */,
+			);
+			name = CQGoogleDirections;
+			productName = CQGoogleDirections;
+			productReference = FC3333C54B6E9030B79F48EE771BB977 /* CQGoogleDirections.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9C9468F8AB72E91EC2523E142EC23450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5391FCA8B24B38B9FEFD276E05E901A /* CQGoogleDirections */,
+				EA53AEDD21EF4F84CB758F7BA091A9CB /* CQGoogleDirections-CQGoogleDirections */,
+				66D7EAD09F3792E7D108240818913CC8 /* Pods-CQGoogleDirections_Example */,
+				15F20FB1C503258BC3FE2A59C940497A /* Pods-CQGoogleDirections_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11C840E3868DCB539CE37D49B29FA84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92E1E55F940B7C9BDCE78F9FC19C8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B51CA467C6F038356D780A82057B89 /* CQGoogleDirections.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495CD42EF1314D39691F03782FF743AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66772E3EA7146FB8CE90752209366631 /* Pods-CQGoogleDirections_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691D20A2FE80168892E0551459F69DDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FDBD591BF3950500C1E84F /* CQGoogleDirections.swift in Sources */,
+				B2FDBD571BF3950500C1E84F /* CQBounds.swift in Sources */,
+				B2FDBD5B1BF3950500C1E84F /* CQOverviewPolylines.swift in Sources */,
+				B2FDBD5A1BF3950500C1E84F /* CQLocation.swift in Sources */,
+				2206A0719D9EEC3D9E4FA5965767B7B3 /* CQGoogleDirections-dummy.m in Sources */,
+				B2FDBD5C1BF3950500C1E84F /* CQRouteLeg.swift in Sources */,
+				B2FDBD581BF3950500C1E84F /* CQDirectionsResponse.swift in Sources */,
+				B2FDBD5D1BF3950500C1E84F /* CQRoutes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F83DE255DEB96E421D9890A6B17EDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6CB956472BCA94FFF0344115747C3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2E85A4A3BE953C334AEEFDA556414C /* Pods-CQGoogleDirections_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2225D74CCBA38F357E2DD2A9694DBF12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CQGoogleDirections;
+			target = F5391FCA8B24B38B9FEFD276E05E901A /* CQGoogleDirections */;
+			targetProxy = 5A5E25E42C699804EA9B6D6D559178D1 /* PBXContainerItemProxy */;
+		};
+		49C553C919400EBE68EC8636309BEFD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CQGoogleDirections-CQGoogleDirections";
+			target = EA53AEDD21EF4F84CB758F7BA091A9CB /* CQGoogleDirections-CQGoogleDirections */;
+			targetProxy = 9DF7173E959AD15E4BFA06634C470643 /* PBXContainerItemProxy */;
+		};
+		6164CE62B5114ED7EB5E8964A1E9DE9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CQGoogleDirections;
+			target = F5391FCA8B24B38B9FEFD276E05E901A /* CQGoogleDirections */;
+			targetProxy = 444522CBB831BF79DE07F916A6D8F516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C70FB0114601D764A51D75AEBC34A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CA24C16807CA30A769945B0F9DCB5A /* Pods-CQGoogleDirections_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CQGoogleDirections_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CQGoogleDirections_Tests/Pods-CQGoogleDirections_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CQGoogleDirections_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		765F3730DCA3E56BD07FBCF6BCC243B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600495747BE03F6401A44C5A91F1FD1D /* CQGoogleDirections.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CQGoogleDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8C0370F60DFB2428EA15B57140B025A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600495747BE03F6401A44C5A91F1FD1D /* CQGoogleDirections.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CQGoogleDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		96E432565456A7CB03683100198B54F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F72554B68E4402C27D75D02AB3D94F /* Pods-CQGoogleDirections_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CQGoogleDirections_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CQGoogleDirections_Example/Pods-CQGoogleDirections_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CQGoogleDirections_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A38DA5DEC17EB3FC9DEECC1D9FF946BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600495747BE03F6401A44C5A91F1FD1D /* CQGoogleDirections.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CQGoogleDirections/CQGoogleDirections-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CQGoogleDirections/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CQGoogleDirections/CQGoogleDirections.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CQGoogleDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2B73F7E95857156BC43EBE2F681EB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600495747BE03F6401A44C5A91F1FD1D /* CQGoogleDirections.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CQGoogleDirections/CQGoogleDirections-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CQGoogleDirections/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CQGoogleDirections/CQGoogleDirections.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CQGoogleDirections;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCD0BBE946CD59B8C1A27E7680DF8A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1167CAF2BA54CF38D027D3F479FB715 /* Pods-CQGoogleDirections_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CQGoogleDirections_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CQGoogleDirections_Example/Pods-CQGoogleDirections_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CQGoogleDirections_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDD08AF92A590924F7C4581CAF29EB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE92EFE032EE97809CB6AF3BA21F8E15 /* Pods-CQGoogleDirections_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CQGoogleDirections_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CQGoogleDirections_Tests/Pods-CQGoogleDirections_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CQGoogleDirections_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4025B096F43EFB7855EBF9A70A1BDE43 /* Build configuration list for PBXNativeTarget "Pods-CQGoogleDirections_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD08AF92A590924F7C4581CAF29EB1D /* Debug */,
+				16C70FB0114601D764A51D75AEBC34A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B097734670096476BDF219AA6BFD444 /* Build configuration list for PBXNativeTarget "CQGoogleDirections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38DA5DEC17EB3FC9DEECC1D9FF946BE /* Debug */,
+				B2B73F7E95857156BC43EBE2F681EB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB2153DFE32F22B59B782C166AA94DC /* Build configuration list for PBXNativeTarget "Pods-CQGoogleDirections_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD0BBE946CD59B8C1A27E7680DF8A15 /* Debug */,
+				96E432565456A7CB03683100198B54F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE275034EC05B03CACA53250BB326269 /* Build configuration list for PBXNativeTarget "CQGoogleDirections-CQGoogleDirections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765F3730DCA3E56BD07FBCF6BCC243B6 /* Debug */,
+				8C0370F60DFB2428EA15B57140B025A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

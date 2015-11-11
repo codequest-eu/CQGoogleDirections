@@ -1,0 +1,6 @@
+framework module Pods_CQGoogleDirections_Tests {
+  umbrella header "Pods-CQGoogleDirections_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

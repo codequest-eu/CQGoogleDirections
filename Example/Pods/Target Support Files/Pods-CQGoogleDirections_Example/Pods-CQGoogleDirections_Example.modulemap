@@ -1,0 +1,6 @@
+framework module Pods_CQGoogleDirections_Example {
+  umbrella header "Pods-CQGoogleDirections_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

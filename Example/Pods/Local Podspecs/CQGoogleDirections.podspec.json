@@ -1,0 +1,25 @@
+{
+  "name": "CQGoogleDirections",
+  "version": "0.1.0",
+  "summary": "A short description of CQGoogleDirections.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CQGoogleDirections",
+  "license": "MIT",
+  "authors": {
+    "Lukasz Solniczek": "l.solniczek@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CQGoogleDirections.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CQGoogleDirections": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

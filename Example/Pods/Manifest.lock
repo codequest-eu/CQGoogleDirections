@@ -1,0 +1,14 @@
+PODS:
+  - CQGoogleDirections (0.1.0)
+
+DEPENDENCIES:
+  - CQGoogleDirections (from `../`)
+
+EXTERNAL SOURCES:
+  CQGoogleDirections:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CQGoogleDirections: 58775b487c06bf3472e316b721b77bf8d5932252
+
+COCOAPODS: 0.39.0
