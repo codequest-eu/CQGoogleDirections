@@ -28,9 +28,22 @@ public class CQGoogleDirections {
         let url = constructGoogleDirectionsURL()
         let urlSession = NSURLSession.sharedSession()
         let task = urlSession.dataTaskWithURL(url) { data, response, error in
-            let json = try! NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments) as! NSDictionary
-            let directionResponse = CQDirectionsResponse(value: json)
-            responseHandler(response: directionResponse)
+            if let _ = error as NSError? {
+                let directionResponse = CQDirectionsResponse(result: CQResponseResult.Failure(.CQGDConnectingError))
+                responseHandler(response: directionResponse)
+            }
+            
+            if let data = data as NSData? {
+                var json: NSDictionary
+                do {
+                    json = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments) as! NSDictionary
+                    let directionResponse = CQDirectionsResponse(result: CQResponseResult.Success, value: json)
+                    responseHandler(response: directionResponse)
+                } catch {
+                    let directionResponse = CQDirectionsResponse(result: CQResponseResult.Failure(.CQGDJSONParsingError))
+                    responseHandler(response: directionResponse)
+                }
+            }
         }
         task.resume()
         
@@ -51,6 +64,5 @@ public class CQGoogleDirections {
         let encodedCombinePath = combinePath.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLFragmentAllowedCharacterSet())!
         return NSURL(string: encodedCombinePath)!
     }
-    
     
 }

@@ -8,12 +8,22 @@
 
 import UIKit
 import CQGoogleDirections
+import CoreLocation
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let directionAPI = CQGoogleDirections(from: splitedCoords.0, to: splitedCoords.1, wayPoints: splitedCoords.2)
+        let directionAPI = CQGoogleDirections(from: CLLocationCoordinate2D(latitude: 52.237800, longitude: 21.049662), to: CLLocationCoordinate2D(latitude: 52.226974, longitude: 21.056588), wayPoints: nil)
+        
+        directionAPI.calculateDirections { (response) -> () in
+            switch response.result {
+            case .Success:
+                print(response.routes)
+            case .Failure(_):
+                print("Error")
+            }
+        }
     }
 
 }

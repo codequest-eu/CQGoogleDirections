@@ -14,6 +14,7 @@
 		66772E3EA7146FB8CE90752209366631 /* Pods-CQGoogleDirections_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DB0254A8A24225C85C00CD9BBCD5CA /* Pods-CQGoogleDirections_Example-dummy.m */; };
 		83915C111276368B879FA179DD876F4F /* CQGoogleDirections-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E9EB02C03F6B91304DB5E173FC3046 /* CQGoogleDirections-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE2E85A4A3BE953C334AEEFDA556414C /* Pods-CQGoogleDirections_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3483302663EE201AC0B1BE561583B /* Pods-CQGoogleDirections_Tests-dummy.m */; };
+		B227DD4B1BF7E2F000444DA4 /* CQResponseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B227DD4A1BF7E2F000444DA4 /* CQResponseResult.swift */; };
 		B2FDBD571BF3950500C1E84F /* CQBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD501BF3950500C1E84F /* CQBounds.swift */; };
 		B2FDBD581BF3950500C1E84F /* CQDirectionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD511BF3950500C1E84F /* CQDirectionsResponse.swift */; };
 		B2FDBD591BF3950500C1E84F /* CQGoogleDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDBD521BF3950500C1E84F /* CQGoogleDirections.swift */; };
@@ -69,6 +70,7 @@
 		998EA2C937E9D28E2B54662BF1312FD1 /* Pods-CQGoogleDirections_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CQGoogleDirections_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B1624B49C617DC2210EF04F5D430B2E6 /* Pods-CQGoogleDirections_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQGoogleDirections_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B1CA24C16807CA30A769945B0F9DCB5A /* Pods-CQGoogleDirections_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQGoogleDirections_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B227DD4A1BF7E2F000444DA4 /* CQResponseResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQResponseResult.swift; sourceTree = "<group>"; };
 		B2FDBD501BF3950500C1E84F /* CQBounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQBounds.swift; sourceTree = "<group>"; };
 		B2FDBD511BF3950500C1E84F /* CQDirectionsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQDirectionsResponse.swift; sourceTree = "<group>"; };
 		B2FDBD521BF3950500C1E84F /* CQGoogleDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CQGoogleDirections.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				B2FDBD541BF3950500C1E84F /* CQOverviewPolylines.swift */,
 				B2FDBD551BF3950500C1E84F /* CQRouteLeg.swift */,
 				B2FDBD561BF3950500C1E84F /* CQRoutes.swift */,
+				B227DD4A1BF7E2F000444DA4 /* CQResponseResult.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 			files = (
 				B2FDBD591BF3950500C1E84F /* CQGoogleDirections.swift in Sources */,
 				B2FDBD571BF3950500C1E84F /* CQBounds.swift in Sources */,
+				B227DD4B1BF7E2F000444DA4 /* CQResponseResult.swift in Sources */,
 				B2FDBD5B1BF3950500C1E84F /* CQOverviewPolylines.swift in Sources */,
 				B2FDBD5A1BF3950500C1E84F /* CQLocation.swift in Sources */,
 				2206A0719D9EEC3D9E4FA5965767B7B3 /* CQGoogleDirections-dummy.m in Sources */,
