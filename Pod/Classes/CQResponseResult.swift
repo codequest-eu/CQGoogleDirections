@@ -11,6 +11,7 @@ import Foundation
 public enum CQResponseResultError: ErrorType {
     case CQGDJSONParsingError
     case CQGDConnectingError
+    case CQGoogleDirectionErrorStatus(String)
 }
 
 public enum CQResponseResult {
@@ -29,13 +30,5 @@ public enum CQResponseResult {
     public var isFailure: Bool {
         return !isSuccess
     }
-    
-    public var error: CQResponseResultError? {
-        switch self {
-        case .Success:
-            return nil
-        case .Failure(let error):
-            return error
-        }
-    }
+
 }

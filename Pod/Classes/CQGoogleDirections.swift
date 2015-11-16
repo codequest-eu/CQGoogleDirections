@@ -37,8 +37,15 @@ public class CQGoogleDirections {
                 var json: NSDictionary
                 do {
                     json = try NSJSONSerialization.JSONObjectWithData(data, options: .AllowFragments) as! NSDictionary
-                    let directionResponse = CQDirectionsResponse(result: CQResponseResult.Success, value: json)
-                    responseHandler(response: directionResponse)
+                    if let status = json["status"] as! String? {
+                        if (status != "OK") {
+                            let directionResponse = CQDirectionsResponse(result: CQResponseResult.Failure(.CQGoogleDirectionErrorStatus(status)))
+                            responseHandler(response: directionResponse)
+                        } else {
+                            let directionResponse = CQDirectionsResponse(result: CQResponseResult.Success, value: json)
+                            responseHandler(response: directionResponse)
+                        }
+                    }
                 } catch {
                     let directionResponse = CQDirectionsResponse(result: CQResponseResult.Failure(.CQGDJSONParsingError))
                     responseHandler(response: directionResponse)
